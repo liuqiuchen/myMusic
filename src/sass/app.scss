@@ -1,0 +1,25 @@
+* {
+  padding:0;
+  margin:0;
+  list-style: none;
+  font-family: 'Microsoft yahei';
+}
+html,
+body,
+#app {
+  height: 100%;
+}
+
+#app {
+  background: #f7f7f7;
+  margin: 0 auto;
+  position: relative;
+  left:0;
+  right:0;
+}
+
+@media screen and (min-width: 542px) {
+  #app {
+    width: 542px;
+  }
+}
